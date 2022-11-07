@@ -1,0 +1,59 @@
+body {
+    background: #292C6D;
+    font-family: "Nunito", sans-serif;
+}
+
+.bruh h2 {
+    color: #E78EA9;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.bruh p {
+    color: #40DFEF;
+}
+
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #E78EA9;
+}
+
+#mainNavbar .navbar-brand {
+    color: red;
+    font-size: 1.5rem;
+}
+
+#headingGroup span {
+    color: #E78EA9
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+    color: #40DFEF;
+}
+
+.navbar.scrolled {
+    background: #E78EA9;
+    transition: background 1s;
+    -webkit-transition: background 1s;
+    -moz-transition: background 1s;
+    -ms-transition: background 1s;
+    -o-transition: background 1s;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
